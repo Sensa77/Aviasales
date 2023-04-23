@@ -1,0 +1,38 @@
+.form {
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 168px;
+  height: 50px;
+  background-color: #ffffff;
+  border: none;
+  border: 1px solid #DFE5EC;
+  letter-spacing: 0.5px;
+}
+
+.form .cheap,
+.form .quick {
+  border-right: none;
+}
+
+.form .cheap {
+  border-radius: 5px 0 0 5px;
+}
+
+.form .optimal {
+  border-radius: 0 5px 5px 0;
+}
+
+.form .active {
+  border-color: #2196F3;
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
