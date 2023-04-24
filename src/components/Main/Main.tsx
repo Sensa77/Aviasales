@@ -5,6 +5,7 @@ import Sort from "../Sort/Sort.tsx";
 import Tickets from "../Tickets/Tickets.tsx";
 
 const Main = () => {
+
   return (
     <div className={styles.main}>
       <Filter/>

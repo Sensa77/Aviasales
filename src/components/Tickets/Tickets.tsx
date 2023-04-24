@@ -4,8 +4,9 @@ import Ticket from "../Ticket/Ticket.tsx";
 
 const Tickets = () => {
   return (
-    <div>
+    <div className={styles.tickets}>
       <Ticket />
+      <button type="button" className={styles.button}>Показать еще 5 билетов!</button>
     </div>
   )
 };
